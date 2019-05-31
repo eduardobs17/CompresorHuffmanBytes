@@ -3,6 +3,10 @@ import heapq
 import pickle, json
 
 
+'''
+Adaptado de: http://bitybyte.github.io/Huffman-coding/
+'''
+
 # Definicion de constantes
 CANTIDAD_HIJOS = 256
 LLAVE_FIN = "FIN"
@@ -438,7 +442,7 @@ def obtener_contenido_archivo(nombre_archivo):
 
 # metodo principal
 def correr():
-    NOMBRE_ARCHIVO = "animals.txt"
+    NOMBRE_ARCHIVO = "lorem.txt"
     # Se lee el archivo y se obtiene la lista de terminos
     terminos = obtener_contenido_archivo(NOMBRE_ARCHIVO)
     # Se obtienen las frecuencias de cada termino

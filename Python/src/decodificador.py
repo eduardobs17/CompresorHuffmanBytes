@@ -47,8 +47,8 @@ def decodificar(arreglo_bytes,dic):
 
 # Metodo que comienza la decodificacion
 def correr():
-    ARCHIVO_CODIFICADO = "animals"
-    ARCHIVO_TABLA = "animals.dic"
+    ARCHIVO_CODIFICADO = "lorem"
+    ARCHIVO_TABLA = "lorem.dic"
     # primero se obtiene el diccionario de codificacion del json
     dic = obtener_dic_de_tabla(ARCHIVO_TABLA)
     # luego se obtienen los bytes de la codificacion resultado del algoridmo
